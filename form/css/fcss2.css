@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+div.A {
+  background: 10px orangered;
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 90px;
+}
+p {
+  color: #ffff;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 30px 30px 30px 30px;
+  font-size: 30px;
+}
+div.B {
+  background: 10px orangered;
+  display: flex;
+  margin: auto;
+  width: 600px;
+  height: 90px;
+}
+
+div.C {
+  background: 10px #1f3f42;
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 700px;
+}
+
+input[type="submit"] {
+  top: 140px;
+  left: 50px;
+  padding: 5px;
+  /* margin:10px 65px; */
+  color: #ffffff;
+  background-color: #875a28;
+  border: none;
+  font-size: larger;
+  margin: 20px 10px 20px 360px;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 3px #000;
+}
+input[type="reset"] {
+  top: 140px;
+  right: 50px;
+  padding: 5px;
+  margin: 20px 10px 20px 10px;
+  color: #ffffff;
+  background-color: #445036;
+  border: none;
+  font-size: larger;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 3px #000;
+}
+input[value="submit"]:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+input[value="Cancel"]:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+input {
+  margin: 20px 0px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 5px;
+  height: 20px;
+  width: 300px;
+  padding: 5px;
+}
+div.aa {
+  display: flex;
+  /* margin:10px 10px 10px 130px; */
+  margin-left: 10px;
+  /* margin-right: 10px; */
+}
+div.bb {
+  display: flex;
+  /* margin:10px 10px 10px 130px; */
+  margin-left: 15px;
+  /* margin-right: 10px; */
+}
+div.cc {
+  display: flex;
+  /* margin:10px 10px 10px 130px; */
+
+  /* margin-right: 5px; */
+}
+div.dd {
+  display: flex;
+  /* margin:10px 10px 10px 130px; */
+  margin-left: 40px;
+  /* margin-right: 10px; */
+}
+h2 {
+  padding: 0px 0px 0px 0px;
+
+  margin: 20px 10px 0px 90px;
+  color: #ffee00;
+}
+.cc h2 {
+  margin: 20px 5px 0px 88px;
+  color: #ffee00;
+}
+.dd h2 {
+  margin: 20px 35px 0px 90px;
+  color: #ffee00;
+}
+div.ff {
+  display: flex;
+}
+.ff h2 {
+  margin: 20px 10px 0px 120px;
+  color: #ffee00;
+}
+div.ee {
+  display: flex;
+}
+.ee h2 {
+  margin: 20px 0px 0px 30px;
+  color: #ffee00;
+  width: 200px;
+}
+div.Gender {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+div.Gender h2 {
+  margin: 25px 0px 0px 120px;
+  color: #ffee00;
+}
+div.Gender p {
+  font-size: 20px;
+  color: #ffee00;
+  margin: 0px 0px 30px 0px;
+  /* padding: 0px 0px 0px 40px; */
+}
+
+div.Gender .radio {
+  margin: 30px 0px 0px 60px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 5px;
+}
+.select {
+  display: flex;
+  margin-bottom: 30px;
+}
+select {
+  width: 300px;
+  height: 30px;
+  margin: 0px 0px 0px 30px;
+}
+.select h2 {
+  margin: 0px 0px 0px 130px;
+  color: #ffee00;
+  /* width: 200px; */
+}
+
+.select p {
+  margin: 0px 0px 0px 130px;
+  color: #ffee00;
+}
